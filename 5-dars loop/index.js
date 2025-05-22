@@ -14,32 +14,3 @@ for (let t = 1; t <= 10; t++) {
   }
 }
 console.log(toq);
-
-let rs = 5;
-let cs = 10;
-
-for (let i = 0; i < rs; i++) {
-  let lon = "";
-
-  if (i === 0 || i === rs - 1) {
-    for (let q = 0; q < cs; q++) {
-      lon += "*";
-    }
-  } else {
-    lon += "*";
-    for (let q = 0; q < cs - 2; q++) {
-      lon += " ";
-    }
-    lon += "*";
-  }
-
-  console.log(lon);
-}
-
-for (let il = 1; il <= 7; il++) {
-  let ss = "";
-  for (let jj = 1; jj <= il; jj++) {
-    ss += "*";
-  }
-  console.log(ss);
-}
